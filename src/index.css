@@ -1,0 +1,139 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #071a26;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+.tasks {
+  background-color: #263e47;
+  padding: 35px;
+  border-radius: 10px;
+}
+
+.logo {
+  font-size: 22px;
+}
+.form {
+  margin-top: 20px;
+  display: flex;
+  gap: 5px;
+}
+.form input,
+button,
+.category-section {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  background-color: #64858c;
+  color: white;
+}
+.form button:hover {
+  background-color: #44616b;
+  cursor: pointer;
+}
+.form input::placeholder {
+  color: white;
+}
+.form input {
+  width: 100%;
+}
+.filter-category {
+  background-color: #263e47;
+  padding: 10px 35px;
+  border-radius: 10px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.filter-category .filter-section,
+.category {
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  outline: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  background-color: #64858c;
+  color: white;
+  text-align: center;
+  width: 150px;
+}
+.category {
+  padding: 3px;
+}
+.task-add {
+  background-color: #263e47;
+  padding: 20px 20px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.add {
+  background-color: #496b73;
+  display: flex;
+  padding: 0 10px;
+  gap: 5px;
+  align-items: center;
+  border-radius: 10px;
+  margin: 15px 0;
+}
+.add .add-value {
+  width: 100%;
+  border: none;
+  background-color: #496b73;
+  padding: 15px 5px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+font-weight: 500;
+}
+.add .add-value:focus {
+  outline: none;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.clear-btn button{
+  width: 100%;
+  background-color: #071a26;
+  transition: all .3s;
+  cursor: pointer;
+}
+.clear-btn button:hover{
+  background-color: #3c565c;
+}
+.categorys{
+  background-color: #263e47;
+  padding: 5px 8px;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+
+.task-icon{
+  display: flex;
+  gap: 15px;
+} 
